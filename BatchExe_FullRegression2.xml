@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" preserve-order="false">
+  <test thread-count="1" parallel="classes" name="Test1">
+    <classes>
+      <class name="com.crm.organization.ContactNameUsingPomClassTest"/>
+      <class name="com.crm.organization.Organization_Education_TypePOMClassTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="1" name="Test2">
+    <classes>
+      <class name="com.crm.organization.OrganizationTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+</suite> <!-- Suite -->

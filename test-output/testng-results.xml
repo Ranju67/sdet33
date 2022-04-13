@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[organization name]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-04-12T18:09:38 IST" name="Default suite" finished-at="2022-04-12T18:10:24 IST" duration-ms="45572">
+    <groups>
+      <group name="Smoke">
+        <method signature="OrganizationTest.createOrganizationTest()[pri:0, instance:com.crm.organization.OrganizationTest@434a63ab]" name="createOrganizationTest" class="com.crm.organization.OrganizationTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-04-12T18:09:38 IST" name="Default test" finished-at="2022-04-12T18:10:24 IST" duration-ms="45572">
+      <class name="com.crm.organization.OrganizationTest">
+        <test-method is-config="true" signature="openDatabase()[pri:0, instance:com.crm.organization.OrganizationTest@434a63ab]" started-at="2022-04-12T18:09:37 IST" name="openDatabase" finished-at="2022-04-12T18:09:38 IST" duration-ms="1613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDatabase -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.organization.OrganizationTest@434a63ab]" started-at="2022-04-12T18:09:38 IST" name="launchBrowser" finished-at="2022-04-12T18:09:49 IST" duration-ms="10659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginApplication()[pri:0, instance:com.crm.organization.OrganizationTest@434a63ab]" started-at="2022-04-12T18:09:49 IST" name="loginApplication" finished-at="2022-04-12T18:09:56 IST" duration-ms="7426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="createOrganizationTest()[pri:0, instance:com.crm.organization.OrganizationTest@434a63ab]" started-at="2022-04-12T18:09:56 IST" name="createOrganizationTest" finished-at="2022-04-12T18:10:20 IST" duration-ms="23493" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[organization name]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrganizationTest -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:com.crm.organization.OrganizationTest@434a63ab]" started-at="2022-04-12T18:10:20 IST" name="logoutFromApplication" finished-at="2022-04-12T18:10:22 IST" duration-ms="2616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.organization.OrganizationTest@434a63ab]" started-at="2022-04-12T18:10:22 IST" name="closeBrowser" finished-at="2022-04-12T18:10:24 IST" duration-ms="1284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeDBConnection()[pri:0, instance:com.crm.organization.OrganizationTest@434a63ab]" started-at="2022-04-12T18:10:24 IST" name="closeDBConnection" finished-at="2022-04-12T18:10:24 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBConnection -->
+      </class> <!-- com.crm.organization.OrganizationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

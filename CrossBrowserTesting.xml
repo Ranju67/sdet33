@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="2" name="Test1">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.crm.organization.ContactNameUsingPomClassTest"/>
+      <class name="com.crm.organization.OrganizationTest"/>
+      <class name="com.crm.organization.Organization_Education_TypePOMClassTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="2" name="Test2">
+  <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.crm.organization.ContactNameUsingPomClassTest"/>
+      <class name="com.crm.organization.OrganizationTest"/>
+      <class name="com.crm.organization.Organization_Education_TypePOMClassTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
